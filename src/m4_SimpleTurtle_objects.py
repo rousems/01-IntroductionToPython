@@ -163,9 +163,23 @@ chad.go_to(rg.Point(0, 0))
 #
 ###############################################################################
 
+star = rg.SimpleTurtle('turtle')
+star.pen = rg.Pen('green', 10)
+star.speed = 1
+star.left(70)
+star.forward(300)
+star.right(140)
+star.forward(300)
+star.left(40)
+star.backward(300)
+star.left(40)
+star.forward(300)
+star.left(30)
+star.backward(300)
+
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
