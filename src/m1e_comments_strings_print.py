@@ -22,6 +22,8 @@
 
 print('Hello, World')
 print('hi there')
+print('how to create a new line?')
+print('what is the equivalent of \"endl\"?')
 print('one', 'two', 'buckle my shoe')
 
 print(3 + 9)
