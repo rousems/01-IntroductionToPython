@@ -12,7 +12,7 @@ import rosegraphics as rg
 window = rg.TurtleWindow
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -47,5 +47,5 @@ for l in range(5):
 
     lela.draw_square(70)
     lela.left(72)
-    
+
 window.close_on_mouse_click()
