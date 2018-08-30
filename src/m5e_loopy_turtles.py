@@ -71,4 +71,19 @@ for k in range(13):
     blue_turtle.pen_down()
     size = size - 12
 
+green_turtle = rg.SimpleTurtle('turtle')
+green_turtle.pen = rg.Pen('green', 3)
+green_turtle.speed = 20
+
+size2 = 150
+
+for l in range(500):
+
+    green_turtle.draw_square(size2)
+
+    green_turtle.pen_up()
+    green_turtle.right(5)
+    green_turtle.forward(5)
+    green_turtle.pen_down()
+    size2 -= 12
 window.close_on_mouse_click()
