@@ -12,22 +12,36 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 import rosegraphics as rg
 
 window = rg.TurtleWindow()
-chad = rg.SimpleTurtle('turtle')
+#chad = rg.SimpleTurtle('circle')
+#chad.pen = rg.Pen('blue', 4)
+#chad.speed = 4
+
+#chad.left(90)
+#chad.forward(200)
+#chad.pen_up()
+#chad.go_to(rg.Point(100, -40))
+#chad.pen_down()
+#chad.pen = rg.Pen('green', 10)
+#chad.right(180)
+#chad.forward(150)
+chad = rg.SimpleTurtle('triangle')
 chad.pen = rg.Pen('blue', 4)
 chad.speed = 4
-
-chad.left(90)
-chad.forward(200)
 chad.pen_up()
-chad.go_to(rg.Point(100, -40))
+chad.left(180)
+chad.forward(250)
+chad.right(90)
 chad.pen_down()
-chad.pen = rg.Pen('green', 10)
-chad.right(180)
-chad.forward(150)
-
+chad.forward(100)
+chad.pen_up()
+chad.right(90)
+chad.forward(350)
+chad.right(90)
+chad.pen_down()
+chad.forward(100)
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   Write code that accomplishes the following:
 #     - Constructs a SimpleTurtle with a  blue  Pen.
 #     - Makes the SimpleTurtle go straight UP 200 pixels.
